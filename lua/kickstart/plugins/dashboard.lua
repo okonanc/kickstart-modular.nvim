@@ -31,6 +31,12 @@ return  {
             { action = "Telescope oldfiles", desc = " Recent files", icon = " ", key = "r" },
             { action = "Telescope live_grep", desc = " Find text", icon = " ", key = "g" },
             {
+              action = [[lua require("lazyvim.util").telescope("find_files",{cwd="/etc/nixos"})()]],
+              desc = " Config Nixos",
+              icon = " ",
+              key = "i"
+            },
+            {
               action = [[lua require("lazyvim.util").telescope.config_files()()]],
               desc = " Config",
               icon = " ",
