@@ -19,7 +19,6 @@ vim.keymap.set("n", "Q", "<nop>")
 
 -- close buffer
 vim.keymap.set("n", "<leader>q", "<cmd>bd<CR>", { desc = "Close Buffer" })
-vim.keymap.set("n", "<C-S-A-q>", "<cmd>q!<CR>", { desc = "Close Buffer without saving" })
 
 -- Close buffer without closing split
 vim.keymap.set("n", "<leader>w", "<cmd>bp|bd #<CR>", { desc = "Close Buffer; Retain Split" })
