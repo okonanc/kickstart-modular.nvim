@@ -5,7 +5,7 @@ return {
     -- See `:help ibl`
     main = 'ibl',
     opts = {},
-    version = "3.5.4",
+   -- version = "3.5.4",
     config = function()
       local highlight = {
         "RainbowRed",
